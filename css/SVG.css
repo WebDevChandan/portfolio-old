@@ -1,0 +1,64 @@
+/*-------------
+Global Selector
+---------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+}
+
+#logo{
+/*	background-color: rgb(32, 35, 48);*/ 
+	animation: fill 0.5s ease forwards 3.5s;
+}
+#path-1-outside-1{
+	animation: fill 0.5s ease forwards 3.5s;	
+}
+
+#logo path:nth-child(2){
+stroke-dasharray: 542.93px;	
+stroke-dashoffset: 542.93px;	
+animation: line-anim 2s ease forwards ;
+}
+
+#logo path:nth-child(3){
+	stroke-dasharray: 530.95px;	
+	stroke-dashoffset: 530.95px;
+	animation: line-anim 2s ease forwards 1s;
+}
+#logo path:nth-child(4){
+	stroke-dasharray: 639.2px;	
+	stroke-dashoffset: 639.2px;
+		animation: line-anim 2s ease forwards 1.9s;
+}
+#logo path:nth-child(5){
+	stroke-dasharray: 446.3px;	
+	stroke-dashoffset: 446.3px;
+		animation: line-anim 2s ease forwards 2s;
+}
+#logo path:nth-child(6){
+	stroke-dasharray: 386.3px;	
+	stroke-dashoffset: 386.3px;
+		animation: line-anim 2s ease forwards 2.9s;
+}
+
+@keyframes line-anim{
+	to{
+		stroke-dasharray: 0%;	
+		stroke-dashoffset: 0%;
+	}
+}
+@keyframes fill{
+from{
+	fill: transparent;
+}
+	to{
+		fill: yellow;
+	}
+}

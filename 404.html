@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 Error</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+	*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+--outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+html, body{
+  background: #eff0f4;
+  overflow: hidden;
+  font-family: "Anton", sans-serif;
+}
+.container{
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 500px;
+}
+.text{
+  color: #e0e5ec;
+  letter-spacing: 15px;
+  text-shadow: 7px 7px 20px rgba(0, 0, 0, .2),
+  -7px -7px 20px rgba(241, 241, 241, 1),
+  -4px -4px 5px rgba(241, 241, 241, 1),
+  0px 0px 20px rgba(241, 241, 241, 1),
+  0px 0px 30px rgba(241, 241, 241, 1),
+  4px 4px 5px rgba(0, 0, 0, .3),
+  0px 0px 10px rgba(0, 0, 0, .3);
+  font-size: 201px;
+
+}
+.page{
+  color: #e0e5ec;
+  font-size: 28px;
+  line-height: 3;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, .3),
+  -7px -7px 20px rgba(241, 241, 241, 1),
+  -4px -4px 5px rgba(241, 241, 241, 1),
+  0px 0px 20px rgba(241, 241, 241, 1),
+  0px 0px 30px rgba(241, 241, 241, 1),
+  4px 4px 5px rgba(0, 0, 0, .2),
+  0px 0px 10px rgba(0, 0, 0, .3);
+}
+.message{
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, .3),
+  -7px -7px 20px rgba(241, 241, 241, 1),
+  -4px -4px 5px rgba(241, 241, 241, 1),
+  0px 0px 20px rgba(241, 241, 241, 1),
+  0px 0px 30px rgba(241, 241, 241, 1),
+  4px 4px 5px rgba(0, 0, 0, .2),
+  0px 0px 10px rgba(0, 0, 0, .3);
+  color: #666666;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-family: raleway,sans-serif;
+}
+.outer-shadow{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-black-600);
+    padding: 6px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    transform: all .3s ease;
+      box-shadow: var(--outer-shadow);
+      font-family: raleway,sans-serif;
+      margin: 10px;
+}
+.outer-shadow a:after {
+    border-radius: 30px;
+}
+.hover-in-shadow {
+    position: relative;
+}
+.hover-in-shadow:hover {
+    box-shadow: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+}
+.hover-in-shadow:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+    z-index: -1;
+}
+.hover-in-shadow:hover:after {
+    box-shadow: var(--inner-shadow);
+    border-radius: 30px;
+}
+</style>
+</head>
+
+<body>
+    
+<div class="container">
+      <span class="text">404</span><br>
+      <span class="page">Oops! Page not Found</span><br>
+      <span class="message">We are soory but the page you are looking for does not exit. <br> <br>Return Back to <a href="https://webdevchandan.hawkviewer.com/" class="outer-shadow hover-in-shadow">My Portfolio</a></span>
+    </div>
+
+
+</body>
+</html>
