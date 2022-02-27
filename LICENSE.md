@@ -7,5 +7,3 @@ I'm the only owner of my contents including (Images and All the Information Rega
 
 Website Link: [**https://hirechandan.in/**](https://hirechandan.in/)
 
-Note:
-Images and Personal credentials has been removed for Privacy.
