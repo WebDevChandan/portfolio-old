@@ -1,5 +1,5 @@
 # WebDevChandan Portfolio
-Copyright © 2022 [WebDevChandan](https://github.com/WebDevChandan) | Inc. All Rights Reserved
+Copyright © 2020 - 2022 [WebDevChandan](https://github.com/WebDevChandan) | Inc. All Rights Reserved
 
 Live Portfolio: [_**https://hirechandan.in/**_](https://hirechandan.in/)
 
